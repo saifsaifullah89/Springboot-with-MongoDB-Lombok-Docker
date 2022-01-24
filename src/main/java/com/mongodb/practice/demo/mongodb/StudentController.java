@@ -16,6 +16,7 @@ public class StudentController {
 
     @GetMapping
     public List<Student> fetchAllStudents(){
+
         return studentService.getAllStudents();
     }
 }
