@@ -116,7 +116,7 @@ services:
  
  ### Lombok
  Project Lombok is a java library that automatically plugs into our editor and build tools, spicing up our java code. 
- With few annotations we can save us from writting many lines of code. :blush: Following are some annotations which saved us not to write getters, setters and many more code portions.
+ With few annotations we can save us from writting many lines of code. :blush: Following are some annotations which saved us not to write getters, setters and many more code portions. For instance here annotation **@AllArgsConstructor** is used to add a constructor with all the members of the class.
  
  ```
  @Data
@@ -126,6 +126,8 @@ services:
 
  ### Postman
  On the client side we used Postmant to test our API.
+ 
+ ![Postman screenshot](https://github.com/saifsaifullah89/Springboot-with-MongoDB-Lombok-Docker/blob/main/src/main/resources/screenshots/postman.png)
  
  
  
